@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27" started-at="2019-02-15T13:12:37Z" finished-at="2019-02-15T13:12:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27" started-at="2019-02-15T13:12:37Z" finished-at="2019-02-15T13:12:37Z">
+      <class name="LearningTestNG.TestNGAnotation_2">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:LearningTestNG.TestNGAnotation_2@685cb137]" name="beforeSuite" is-config="true" duration-ms="8" started-at="2019-02-15T13:12:37Z" finished-at="2019-02-15T13:12:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:LearningTestNG.TestNGAnotation_2@685cb137]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-02-15T13:12:37Z" finished-at="2019-02-15T13:12:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:LearningTestNG.TestNGAnotation_2@685cb137]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-02-15T13:12:37Z" finished-at="2019-02-15T13:12:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:LearningTestNG.TestNGAnotation_2@685cb137]" name="test3" duration-ms="4" started-at="2019-02-15T13:12:37Z" finished-at="2019-02-15T13:12:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:LearningTestNG.TestNGAnotation_2@685cb137]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-02-15T13:12:37Z" finished-at="2019-02-15T13:12:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:LearningTestNG.TestNGAnotation_2@685cb137]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-02-15T13:12:37Z" finished-at="2019-02-15T13:12:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:LearningTestNG.TestNGAnotation_2@685cb137]" name="afterSuite" is-config="true" duration-ms="0" started-at="2019-02-15T13:12:37Z" finished-at="2019-02-15T13:12:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- LearningTestNG.TestNGAnotation_2 -->
+      <class name="LearningTestNG.TestNGAnotation_1">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:LearningTestNG.TestNGAnotation_1@6a41eaa2]" name="beforeClass" is-config="true" duration-ms="1" started-at="2019-02-15T13:12:37Z" finished-at="2019-02-15T13:12:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testCaseOne()[pri:0, instance:LearningTestNG.TestNGAnotation_1@6a41eaa2]" name="testCaseOne" duration-ms="1" started-at="2019-02-15T13:12:37Z" finished-at="2019-02-15T13:12:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseOne -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:LearningTestNG.TestNGAnotation_1@6a41eaa2]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-02-15T13:12:37Z" finished-at="2019-02-15T13:12:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:LearningTestNG.TestNGAnotation_1@6a41eaa2]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-02-15T13:12:37Z" finished-at="2019-02-15T13:12:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:LearningTestNG.TestNGAnotation_1@6a41eaa2]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-02-15T13:12:37Z" finished-at="2019-02-15T13:12:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCaseTwo()[pri:0, instance:LearningTestNG.TestNGAnotation_1@6a41eaa2]" name="testCaseTwo" duration-ms="1" started-at="2019-02-15T13:12:37Z" finished-at="2019-02-15T13:12:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseTwo -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:LearningTestNG.TestNGAnotation_1@6a41eaa2]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-02-15T13:12:37Z" finished-at="2019-02-15T13:12:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:LearningTestNG.TestNGAnotation_1@6a41eaa2]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-02-15T13:12:37Z" finished-at="2019-02-15T13:12:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- LearningTestNG.TestNGAnotation_1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
