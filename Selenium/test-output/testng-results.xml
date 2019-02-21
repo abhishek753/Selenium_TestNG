@@ -1,91 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="45" started-at="2019-02-21T12:58:25Z" finished-at="2019-02-21T12:58:25Z">
+  <suite name="Selenium by groups" duration-ms="33" started-at="2019-02-21T13:59:34Z" finished-at="2019-02-21T13:59:34Z">
     <groups>
+      <group name="performance">
+        <method signature="GroupingTest.feature1()[pri:0, instance:LearningTestNG.GroupingTest@47c62251]" name="feature1" class="LearningTestNG.GroupingTest"/>
+        <method signature="GroupingTest.feature3()[pri:0, instance:LearningTestNG.GroupingTest@47c62251]" name="feature3" class="LearningTestNG.GroupingTest"/>
+      </group> <!-- performance -->
+      <group name="Regression`">
+        <method signature="GroupingTest.feature3()[pri:0, instance:LearningTestNG.GroupingTest@47c62251]" name="feature3" class="LearningTestNG.GroupingTest"/>
+      </group> <!-- Regression` -->
     </groups>
-    <test name="Default test" duration-ms="45" started-at="2019-02-21T12:58:25Z" finished-at="2019-02-21T12:58:25Z">
-      <class name="LearningTestNG.LearningDataParameter">
-        <test-method status="PASS" signature="registerUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:LearningTestNG.LearningDataParameter@3532ec19]" name="registerUser" duration-ms="9" started-at="2019-02-21T12:58:25Z" data-provider="testData" finished-at="2019-02-21T12:58:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Abhishek]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Sharma]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Test@gmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[12345]]>
-              </value>
-            </param>
-          </params>
+    <test name="GRP-performance" duration-ms="33" started-at="2019-02-21T13:59:34Z" finished-at="2019-02-21T13:59:34Z">
+      <class name="LearningTestNG.GroupingTest">
+        <test-method status="PASS" signature="feature1()[pri:0, instance:LearningTestNG.GroupingTest@47c62251]" name="feature1" duration-ms="10" started-at="2019-02-21T13:59:34Z" finished-at="2019-02-21T13:59:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registerUser -->
-        <test-method status="PASS" signature="registerUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:LearningTestNG.LearningDataParameter@3532ec19]" name="registerUser" duration-ms="2" started-at="2019-02-21T12:58:25Z" data-provider="testData" finished-at="2019-02-21T12:58:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Anand]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Mishra]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Test1@gmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- feature1 -->
+        <test-method status="PASS" signature="feature3()[pri:0, instance:LearningTestNG.GroupingTest@47c62251]" name="feature3" duration-ms="1" started-at="2019-02-21T13:59:34Z" finished-at="2019-02-21T13:59:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registerUser -->
-        <test-method status="PASS" signature="registerUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:LearningTestNG.LearningDataParameter@3532ec19]" name="registerUser" duration-ms="2" started-at="2019-02-21T12:58:25Z" data-provider="testData" finished-at="2019-02-21T12:58:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Prashant]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Tyagi]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Test2@gmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[1234567]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registerUser -->
-      </class> <!-- LearningTestNG.LearningDataParameter -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- feature3 -->
+      </class> <!-- LearningTestNG.GroupingTest -->
+    </test> <!-- GRP-performance -->
+  </suite> <!-- Selenium by groups -->
 </testng-results>
